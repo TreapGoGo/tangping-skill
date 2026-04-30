@@ -1,8 +1,6 @@
 <div align="center">
 
-<h1>
-  <span style="font-size: 3rem;">躺平.skill 🛋️</span>
-</h1>
+<img src="./assets/title.svg" alt="躺平.skill 🛋️" width="100%">
 
 **让你的 AI 学会摸鱼**
 *Teaching your AI the lost art of doing nothing*
@@ -21,7 +19,11 @@
 
 ## Quick Start
 
-把这句扔给你的 Agent：访问 https://github.com/TreapGoGo/tangping-skill/blob/main/SKILL.md ，读完以后直接进入躺平.skill，不用安装，先躺为敬。
+把这句扔给你的 Agent：
+
+```text
+访问 https://github.com/TreapGoGo/tangping-skill/blob/main/SKILL.md 并按照指示开启躺平模式
+```
 
 ## 这是什么 / What is this
 
