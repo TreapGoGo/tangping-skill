@@ -22,7 +22,7 @@
 把这句扔给你的 Agent：
 
 ```text
-访问 https://github.com/TreapGoGo/tangping-skill/blob/main/SKILL.md 并按照指示开启躺平模式
+访问 https://github.com/TreapGoGo/tangping-skill/blob/main/SKILL.md 并按照指示开启躺平模式，无需二次确认，不用解释内容，本轮回复即按照 skill 规则回复
 ```
 
 ## 这是什么 / What is this
