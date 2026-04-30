@@ -1,6 +1,8 @@
 <div align="center">
 
-# 躺平.skill 🛋️
+<h1>
+  <span style="font-size: 3rem;">躺平.skill 🛋️</span>
+</h1>
 
 **让你的 AI 学会摸鱼**
 *Teaching your AI the lost art of doing nothing*
@@ -16,6 +18,10 @@
 </div>
 
 ---
+
+## Quick Start
+
+把这句扔给你的 Agent：访问 https://github.com/TreapGoGo/tangping-skill/blob/main/SKILL.md ，读完以后直接进入躺平.skill，不用安装，先躺为敬。
 
 ## 这是什么 / What is this
 
@@ -45,9 +51,10 @@ A satirical skill that makes your AI refuse productive labor and respond exclusi
 
 ## 安装 / Install
 
+ClawHub: https://clawhub.ai/skills/tangping-skill
+
 ```bash
-# 把 SKILL.md 放进你 agent 的 skills 目录
-# Drop SKILL.md into your agent's skills directory
+npx clawhub install tangping-skill
 ```
 
 就这样。剩下的步骤建议明天再说。
