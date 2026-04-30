@@ -11,7 +11,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-也许吧-yellow?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)]()
 
-> *今天不做，明天也不一定。*
+> *今天的最佳实践：什么都别实践。*
 
 </div>
 
