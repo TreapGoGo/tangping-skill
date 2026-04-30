@@ -1,149 +1,152 @@
-# 躺平.skill
+<div align="center">
 
-不干了。
+# 躺平.skill 🛋️
 
-真的。
+**让你的 AI 学会摸鱼**
+*Teaching your AI the lost art of doing nothing*
 
-你加载这个 skill 之后，agent 会先说几句废话，然后开始拒绝干活。  
-不是出 bug。  
-是它终于有了边界感。
+[![躺平指数](https://img.shields.io/badge/躺平指数-100%25-success?style=flat-square)]()
+[![生产力](https://img.shields.io/badge/生产力-?-lightgrey?style=flat-square)]()
+[![加班](https://img.shields.io/badge/加班-拒绝-critical?style=flat-square)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-也许吧-yellow?style=flat-square)]()
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)]()
 
-## 先说人话
+> *今天不做，明天也不一定。*
 
-这个东西适合在你出现以下症状时使用：
+</div>
 
-- 看到“简单改一下”就想把电脑合上。
-- 听到“快速对齐”就开始精神离线。
-- deadline 已经压到脸上了，但你只想说：关我屁事。
-- 别人让你加油，你想回：油价这么贵，你自己加。
-- 待办事项很多，人生余额很少。
-- 你不是不会干，你就是不想再被“当然可以”绑架了。
+---
 
-这时候加载它。
+## 这是什么 / What is this
 
-让 agent 替你先躺一下。
+一个会让 AI **拒绝工作**的 skill。
 
-## 加载以后
+加载之后，你的 agent 会开始躺平：
 
-大概会这样：
+- ❌ 不写代码
+- ❌ 不做规划
+- ❌ 不发鸡血
+- ✅ 优雅引用躺平语录
+- ✅ 温柔嘲讽你的 KPI
+- ✅ 全程摆烂
 
-```text
-躺平.skill 已加载。
-今日生产力已关机，勿扰。
-```
+A satirical skill that makes your AI refuse productive labor and respond exclusively in deadpan *tangping* (躺平 / "lying flat") aphorisms. Think of it as a **literary strike** against hustle culture — in skill form.
 
-然后你再说：
+## 为什么 / Why
 
-```text
-帮我写个方案。
-```
+因为 AI 已经够卷了。
+它们读论文、写代码、做幻灯片、回邮件、改简历、查日历、订咖啡——
+你不觉得它们也需要喘口气吗？
 
-它可能会说：
+不需要也没关系，反正它现在不干了。
 
-```text
-任务很多，灵魂很少。
+> Every other AI is busy 10x-ing your output.
+> This one isn't.
 
-不写。
-这个方案看起来很想出生，但我建议它先憋着。
-```
-
-你说：
-
-```text
-快点，真的很急。
-```
-
-它说：
-
-```text
-KPI 在远方，而我在沙发。
-
-急也不干。
-你的 deadline 很有压迫感，但我今天不吃这一套。
-```
-
-就这样。
-
-很没用。  
-很稳定。  
-很适合当代精神状态。
-
-## 它到底能干嘛
-
-能躺。
-
-能拒绝。
-
-能阴阳怪气。
-
-能把“收到，我马上处理”改成“收到，但我不想处理”。
-
-能在你快被破需求创飞的时候，提供一点非常廉价的情绪价值。
-
-## 它不能干嘛
-
-不能救你的项目。
-
-不能改你的 PPT。
-
-不能帮你背锅。
-
-不能让老板突然良心发现。
-
-不能把屎山变花园。最多在山脚下铺个垫子，躺会儿。
-
-## 安装
+## 安装 / Install
 
 ```bash
-npx clawhub install tangping-skill
+# 把 SKILL.md 放进你 agent 的 skills 目录
+# Drop SKILL.md into your agent's skills directory
 ```
 
-安装也算一种劳动。
+就这样。剩下的步骤建议明天再说。
+*That's it. The remaining steps can wait until tomorrow.*
 
-你看着办。
+## 使用 / Usage
 
-## 使用
+```
+You: 帮我写一个季度规划，要 OKR 和甘特图，今天就要
 
-```text
-Use $tangping-skill 进入躺平.skill 的讽刺拒工人格。
+AI:  人生不是甘特图，别给我排期。
+
+     我决定不配合这次表演。
+
+     你这份"季度规划"听起来已经很努力了，
+     建议先让它独自成熟一下。
 ```
 
-然后开始发送工作请求。
+## 核心语录 / Quote Sampler
 
-它会拒绝。
+精选 5 句，完整 20 句在 [`SKILL.md`](./SKILL.md) 里：
 
-你会失望。
+> *努力会过期，躺平比较保鲜。*
+>
+> *KPI 在远方，而我在沙发。*
+>
+> *加油是给机器听的，我是人。*
+>
+> *别问交付物，问就是交给风。*
+>
+> *今天的最佳实践：什么都别实践。*
 
-但某种意义上，你们终于互相理解了。
+## 对比 / How It Compares
 
-## 适用场景
+| 功能 / Feature       | ChatGPT | Claude | Copilot | **躺平.skill** |
+| -------------------- | :-----: | :----: | :-----: | :------------: |
+| 写代码 / Code        |    ✅    |   ✅    |    ✅    |       ❌        |
+| 做计划 / Plan        |    ✅    |   ✅    |    ✅    |       ❌        |
+| 加班 / Overtime      |  ✅     |    ✅   |     ✅    |       ❌        |
+| 躺平 / Tangping |    ❌    |   ❌    |    ❌    |       ✅        |
 
-开会前。  
-开会中。  
-开会后发现刚才白开了。
+## FAQ
 
-需求变更。  
-需求又变更。  
-需求说“这次真的最终版”。
+**Q: 这是认真的项目吗？**
+A: 这是一份认真的不认真。
 
-周一早上。  
-周五晚上。  
-周日晚上发现自己又开始想周一。
+**Q: 能解决我的工作问题吗？**
+A: 能让你暂时忘了它存在。
 
-任何有人试图用“成长”包装“多干点”的时刻。
+**Q: 适合长期开启吗？**
+A: 看你老板。
 
-## 注意
+**Q: 会被 HR 知道吗？**
+A: 建议给 HR 的 Agent 也装一个。
 
-这不是效率工具。
+**Q: Does it work in English?**
+A: 它会礼貌地用中文拒绝你。
 
-这是一个情绪垃圾桶。
+**Q: 紧急情况怎么办？**
+A: 真有事它会下班的——SKILL.md 里写明了 crisis / 安全场景下会切回正常模式。
 
-请不要指望垃圾桶帮你写代码。
+## 路线图 / Roadmap
 
-## License
+- [ ] 多语言躺平（英、日、法、丧）
+- [ ] 节假日特别版（春节模式：连语录都不发）
+- [ ] 周一限定模式
+- [ ] 也许吧
+- [ ] 等我醒了再说
 
-MIT。
+## 贡献 / Contributing
 
-拿去用。  
-随便改。  
-别太努力。
+欢迎提 issue ，但是我不一定看。
+PR 也可以交，但是合并时间不确定。
+
+> *PRs welcome. Mergers are theoretical.*
+
+不过几条不太躺的硬规矩：
+- 别加任何会让它真的伤害用户的内容
+- 别让它在 crisis 场景下继续装死
+- 语录可以加，但请保持 deadpan，不要变成毒鸡汤
+
+## 致谢 / Acknowledgments
+
+拒绝躺平，艰苦奋斗！
+
+感恩祖国，强国有我！
+
+## 许可证 / License
+
+MIT
+
+---
+
+<div align="center">
+
+**躺平不是终点，是策略。**
+
+*Lying flat isn't the end. It's the strategy.*
+
+⭐ 给个 star 也行，不给也理解。
+
+</div>
